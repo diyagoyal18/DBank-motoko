@@ -1,0 +1,5 @@
+service : {
+  compound: () -> () oneway;
+  topUp: () -> () oneway;
+  withdrawl: (float64) -> () oneway;
+}
